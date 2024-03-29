@@ -1,6 +1,6 @@
 # Cooking Recipe System
 
-React App with Symfony For
+React App with Symfony For Cooking recipes
 
 ## Requirements:
 
@@ -8,6 +8,7 @@ React App with Symfony For
 * PosgreSQL: 16
 * Composer: 2.0+
 * NodeJS: 20+ 
+
 
 ## Setup
 
@@ -60,3 +61,14 @@ symfony serve
 ```
 npm run watch
 ```
+
+## Routes:
+Api documentation:
+``
+/api/docs
+``
+
+React App:
+``
+/
+``
