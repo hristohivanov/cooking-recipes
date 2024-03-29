@@ -3,6 +3,7 @@ version: '3'
 services:
   server:
     build: .
+    container_name: 'cooking-recipes-server'
     image: hristoivanov23/php-wrapped:8.2-symfony-pgsql
     command: sh -c "symfony serve"
     ports:
