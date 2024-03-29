@@ -1,0 +1,114 @@
+body {
+    background-color: lightgray;
+}
+
+.wrapper a:link, .wrapper a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 20px;
+}
+
+.heading-primary {
+    backface-visibility: hidden;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.heading-secondary {
+    text-align: center;
+}
+
+.recipe-list {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.card {
+    display: flex;
+}
+
+.recipe-card {
+    margin-bottom: 2rem;
+}
+
+.recipe-card:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.recipe-card:active {
+     box-shadow: 0 0.5rem 12rem rgba(0, 0, 0, .15);
+     transform: translateY(0);
+ }
+
+.recipe-card .h5 {
+    height: 1.1rem;
+}
+
+.recipe-card .card-title {
+    height: 3rem;
+}
+
+.recipe-card:hover .card-title {
+    text-decoration: underline;
+}
+
+.recipe-card .card-text {
+    height: 6rem;
+}
+
+.recipe-card .card-author {
+    text-align: right;
+}
+
+.card-author a:link, .card-author a:visited {
+     color: #555;
+}
+
+a .card-body:hover {
+    text-decoration: none;
+}
+
+.content {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+    background-color: white;
+    padding: 3rem;
+}
+
+.content .head-image {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.content .btn {
+    margin: 0.2rem;
+}
+
+.content a.btn:link, .content a.btn:visited, .content a.btn:hover {
+    text-decoration: none;
+    color: white;
+}
